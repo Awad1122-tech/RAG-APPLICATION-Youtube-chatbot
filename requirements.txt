@@ -1,0 +1,43 @@
+# Langchain Core
+langchain                 # Main LangChain framework - connects LLMs, prompts, chains and agents together
+langchain-core            # Core building blocks and base classes that all LangChain packages depend on
+
+
+# ============================================
+# LLM INTEGRATIONS - choose which AI brain to use
+# ============================================
+ 
+        
+
+# Anthropic Intregration
+langchain-anthropic        # Bridge between LangChain and Anthropic Claude models
+
+
+# ============================================
+# HUGGING FACE - free open source models
+# ============================================
+
+# Hugging Face Integration
+langchain-huggingface               # Bridge between LangChain and Hugging Face models
+huggingface-hub                     # Downloads models from Hugging Face model hub
+
+
+
+# ============================================
+# ENVIRONMENT AND SECURITY
+# ============================================
+
+
+# Enviroment Variable Management
+python-dotenv                       # Loads API keys safely from a .env file - avoids hardcoding keys in code
+
+
+
+
+# ============================================
+# DATA SCIENCE UTILITIES
+# ============================================
+
+# Machine Learning Utilities
+numpy                               # Numerical computing and arrays - used internally by LangChain for embeddings
+scikit-learn                        # Machine learning tools - used for similarity calculations and vector operations
